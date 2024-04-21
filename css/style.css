@@ -215,14 +215,34 @@ p {
   background-color: #fff;
   overflow: hidden; }
 
-.btn__colorful::before {
+.btn__colorful--1::before {
   content: "";
   width: 110%;
   height: 120%;
   position: absolute;
   background-color: #31363f;
   transition: transform 1.3s;
-  z-index: -1;
+  z-index: -1; }
+
+.btn__colorful--2::before {
+  content: "";
+  width: 110%;
+  height: 120%;
+  position: absolute;
+  background-color: #76abae;
+  transition: transform 1.3s;
+  z-index: -1; }
+
+.btn__colorful--3::before {
+  content: "";
+  width: 110%;
+  height: 120%;
+  position: absolute;
+  background-color: #968d8d;
+  transition: transform 1.3s;
+  z-index: -1; }
+
+.btn__colorful::before {
   top: 0;
   right: 100%; }
 

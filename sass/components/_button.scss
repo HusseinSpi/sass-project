@@ -114,8 +114,23 @@
     background-color: $color-white;
     overflow: hidden;
   }
+
+  &--1 {
+    &::before {
+      @include btn-before($color-primary-light);
+    }
+  }
+  &--2 {
+    &::before {
+      @include btn-before($color-secondary-light);
+    }
+  }
+  &--3 {
+    &::before {
+      @include btn-before($color-tertiary-light);
+    }
+  }
   &::before {
-    @include btn-before($color-primary-light);
     top: 0;
     right: 100%;
   }
